@@ -1,6 +1,6 @@
 {
   "name": "schema-clear",
-  "description": "Remueve los elementos innecesarios de los esquemas.",
+  "description": "Remueve los elementos inicesarios de los esquemas.",
   "version": "0.0.1",
   "author": "FedYou",
   "scripts": {
