@@ -1,0 +1,12 @@
+{
+  "name": "schema-clear",
+  "description": "Remueve los elementos inicesarios de los esquemas.",
+  "version": "0.0.1",
+  "author": "FedYou",
+  "scripts": {
+    "build": "node main.js"
+  },
+  "dependencies": {
+    "youfile": "^1.0.6"
+  }
+}
