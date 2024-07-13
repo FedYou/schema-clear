@@ -26,7 +26,9 @@ function analyze(filePath) {
 // Si encuentra coincidencia, elimina el objeto.
 function remove(obj, key) {
   REMOVE.forEach((name) => {
-    if (key === name) {
+    if (key === name && typeof obj[key] === "string") {
+      delete obj[key];
+    } else if (key === name && Array.isArray(obj[key])) {
       delete obj[key];
     }
   });
