@@ -1,3 +1,3 @@
 # Schema Clear
 
-Remueve los elementos inicesarios de los esquemas.
+Remueve los elementos innecesarios de los esquemas.
