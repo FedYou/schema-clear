@@ -9,12 +9,13 @@ const REMOVE = [
   "examples",
   "default",
   "defaultSnippets",
+  "$comment",
 ];
 const FILES = youfile.read.dir.getAllExtnameFiles(ENTRY, ".json");
 
 FILES.map((filePath) => analyze(filePath));
 
-// Lee los archivos y remueve los objetos inecesarios.
+// Lee los archivos y remueve los objetos innecesarios.
 function analyze(filePath) {
   const content = youfile.read.json(filePath);
   const outputPath = filePath.replace(ENTRY, OUTPUT);
